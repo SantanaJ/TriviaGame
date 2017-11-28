@@ -87,18 +87,20 @@
 
 #screenTitle{
     text-align: center;
-    color: red;
+    color:white;
+    text-shadow: 8px 0 12px red;
+    font-size: 190%;
 }
 
-#main{
+#mainScreen{
     background-color: rgb(85, 95, 165);
     padding-top: 50px;
     padding-right: 30px;
-    padding-bottom: 600px;
+    padding-bottom: 165px;
     padding-left: 80px;
     border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 #trivia{
@@ -108,6 +110,14 @@
 #boys{
   margin-left: 100px;
    
+}
+
+#waffleStart{
+    width:300px;
+    margin-left: 34%;
+    margin-top: 10%;
+    opacity: 1.0;
+  
 }
 
 
