@@ -21,7 +21,7 @@
 // Game ends with "reset" button
 
 var questionOrder = [questionOne, questionTwo];
-var displayQuestion = 0;
+// var displayQuestion=
 
 var questionOne ={
     question:"In what decade is the Netflix original series set in?",
@@ -38,19 +38,21 @@ var questionTwo ={
 };
 
 $("#waffleStart").on("click", function(){
-    $("#intro").empty();
-    gamePlay(questionOrder[displayQuestion]);
-    $("#mainScreen").css("display", "inline");
+    $("#intro").html("test");
+    // gamePlay(questionOrder[displayQuestion]);
+    // $("#intro").css("display", "inline");
 
 });
 
-function gamePlay (question){
+console.log(questionOne);
+
+
+// function gamePlay(){
+    
     
 
-}
+// }
 
 
-var rightAnswers=0;
-var wrongAnswers=0;
 
 
